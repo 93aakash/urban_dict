@@ -6,4 +6,5 @@ Usage:
 
 Options:
   -d, --delete  delete word from the database
+  
   -h, --help    print this help and exit
