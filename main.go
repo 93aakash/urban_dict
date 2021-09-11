@@ -89,9 +89,13 @@ func main() {
 }
 
 func printUsage() {
-	fmt.Printf("Usage:\n  urban_dict [OPTIONS] word\n\n")
-	fmt.Println("Options:\n  -d, --delete\tdelete word from the database")
-	fmt.Println("  -h, --help\tprint this help and exit\n")
+	fmt.Println(`Usage:
+urban_dict [OPTIONS] word
+
+Options:
+  -d, --delete	delete word from the database
+  -h, --help	print this help and exit
+`)
 }
 
 func getDef(query string) ([]models.Def, error) {
