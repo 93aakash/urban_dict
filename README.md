@@ -1,5 +1,5 @@
 # urban_dict
-A small Go commadline application which uses the urbandictionary API to get definitions and stores them in an SQLITE3 database.
+A small Go CLI application which uses the urbandictionary API to get definitions and stores them in an SQLite3 database.
 
 ## Usage:
   
