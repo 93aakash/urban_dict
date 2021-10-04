@@ -1,5 +1,6 @@
 # urban_dict
 A small Go CLI application which uses the urbandictionary API to get definitions and stores them in an SQLite3 database. Just search.
+Fork my repo and send me a pull request to contribute.
 
 ## Usage:
   
