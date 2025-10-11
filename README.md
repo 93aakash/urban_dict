@@ -1,4 +1,4 @@
-# urban_dict
+# udict
 
 A tiny CLI tool to look up terms from **Urban Dictionary**.  
 It stores results in a local **SQLite3** database for faster future lookups.
@@ -19,20 +19,20 @@ Building from the source requires [Go](https://go.dev/).
 Build command:
 
 ```bash
-go install -ldflags="-s -w" github.com/93aakash/urban_dict@latest
+go install -ldflags="-s -w" github.com/93aakash/urban_dict/cmd/udict@latest
 ```
 
 ---
 
 ## Usage
-Run urban_dict -help to see command line options.
+Run udict -help to see command line options.
 
 ```bash
 NAME:
-   urban_dict - Look up terms using Urban Dictionary
+   udict - Look up terms using Urban Dictionary
 
 USAGE:
-   urban_dict [global options] term
+   udict [global options] term
 
 VERSION:
    1.0.0
@@ -47,6 +47,6 @@ GLOBAL OPTIONS:
 #### Example
 
 ```bash
-urban_dict yeet
-urban_dict -d yeet
+udict yeet
+udict -d yeet
 ```

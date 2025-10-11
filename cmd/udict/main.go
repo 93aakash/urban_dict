@@ -22,7 +22,7 @@ const (
 
 func main() {
 	cmd := &cli.Command{
-		Name: "urban_dict",
+		Name: "udict",
 		Flags: []cli.Flag{
 			&cli.BoolFlag{Name: "delete", Aliases: []string{"d"}},
 			&cli.BoolFlag{Name: "debug", Aliases: []string{"x"}},

@@ -5,6 +5,7 @@
 *.so
 *.dylib
 urban_dict
+udict
 
 # Test binary, built with `go test -c`
 *.test
